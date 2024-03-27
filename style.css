@@ -1,0 +1,119 @@
+<style>
+    /* CSS reset  */
+    body {
+        font-family: 'Oswald', sans-serif;
+
+        font-family: 'Pacifico', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img.jpg');
+
+        ;
+
+    }
+
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 47px;
+        top: 20px;
+    }
+
+
+    .mid {
+        display: block;
+        width: 40%;
+        /* border: 2px solid rgb(62, 169, 26); */
+        margin: 20px auto;
+    }
+
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid rgb(17, 145, 200); */
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 5px;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .btn:hover {
+        background-color: rgb(88, 80, 80);
+    }
+
+    .container {
+        border: 2px solid rgb(242, 240, 236);
+        margin: 130px 55px;
+        padding: 50px;
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 340px;
+        padding: 5px;
+        border: 4px solid black;
+        margin: 4px auto;
+        font-size: 16px;
+        border-radius: 10px;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+    }
+</style>
